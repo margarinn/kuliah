@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form name="registrasi" action="https://info.cern.ch">
+        nim: <input type="text" name="nim"> <br/>
+        nama: <input type="text" name="nama" size="30"> <br/>
+        program studi:  <input type="text" name="prodi" size="30" maxlength="3"> <br/>
+        password: <input type="password" name="pwd" size="30" maxlength="3"> <br/>
+        fakultas: <input type="text" name="fak" size="30" value="sekolah"> <br/>
+        alamat: <input type="text" name="alamat" size="30" placeholder="Jl. Kumbang 14 Bogor"> <br/>
+
+        jenis kelamin:
+        <input type="radio" name="pilihan" value="lk" /> laki-laki
+        <input type="radio" name="pilihan" value="pr" /> perempuan <br />
+
+        kendaraan umum :
+        <input type="radio" name="pilihan" value="tj" /> transjakarta 
+        <input type="radio" name="pilihan1" value="krl" /> commuterline <br />
+
+        Hobi:
+        <br>
+        <input type="checkbox" name="pilhobi" value="mancing"> memancing <br />
+        <input type="checkbox" name="pilhobi" value="ngoding"> ngoding <br />
+        <input type="checkbox" name="pilhobi" value="menyanyi"> menyanyi <br />
+        <input type="checkbox" name="pilhobi" value="membaca"> membaca <br />
+        <br>
+
+        agama:
+        <br>
+        <select name="pilihagama" size="1">
+        <option value="iz"> Islam
+        <option value="kris"> kristen
+        <option value="kat"> Katolik
+        <option value="hin"> Hindu
+        <option value="kong"> Konghucu
+        <option value="bud"> Buddha
+        </select> 
+        <br />
+
+        agama ke-2:
+        <br>
+        <select name="pilihagama" size="6">
+        <option value="iz"> Islam
+        <option value="kris"> kristen
+        <option value="kat"> Katolik
+        <option value="hin"> Hindu
+        <option value="kong"> Konghucu
+        <option value="bud"> Buddha
+        </select> 
+        <br />
+
+        Pesan Untuk IPB: 
+        <br>
+        <textarea name="pesan" rows="15" cols="30"> </textarea> <br>
+
+        <input type="Submit" value="kirim data">
+        <input type="Reset" value="haput data">
+
+    </form>
+</body>
+</html>

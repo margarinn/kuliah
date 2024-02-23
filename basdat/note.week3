@@ -1,0 +1,18 @@
+simple vs composite attribute
+1 single component e.g. goldar
+composite => dividable => alamat => jalan, kota
+tunggal =>  jenis kelamin etc etc
+multiple => hobi
+
+entity relationship
+
+main constrain => multiplicity
+
+binary relsationship
+one to one
+one to many etc etc
+
+
+
+
+

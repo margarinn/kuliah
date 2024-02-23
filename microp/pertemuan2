@@ -1,0 +1,46 @@
+registraion form
+email
+password
+nama lengkap
+email
+
+bit.ly/bs
+
+html css, 
+
+
+goal => login form
+
+tag html
+src source
+
+paragraph <p> 
+    tag 
+
+h1 => title 
+
+semantic tag
+=> <header></header>
+<nav
+<main></main>
+<article
+<aside => sidebar
+<footer
+
+
+
+css
+inline css => ditulis langsing
+internal css => ditulis di dalam tag <style>
+external css => separated file
+
+
+!important tag => defy the priotiry
+
+import = <link rel="stylesheet" href="file"
+
+selector => 
+selector tag, selector class
+tag => p{color:red}
+class .highlight{background-color: yellow;}
+selector id #header {font: 100;}
